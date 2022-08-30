@@ -19,9 +19,9 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Link Hosting Kalian Untuk SSH VPN
-sla="raw.githubusercontent.com/fisabiliyusri/main/ssh"
+sla="raw.githubusercontent.com/fisabiliyusri/ujicoba/main/ssh"
 # Link Hosting Kalian Untuk Websocket
-slb="raw.githubusercontent.com/fisabiliyusri/main/websocket"
+slb="raw.githubusercontent.com/fisabiliyusri/ujicoba/main/websocket"
 
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
