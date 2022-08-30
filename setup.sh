@@ -19,9 +19,19 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Link Hosting Kalian Untuk SSH VPN
-sla="raw.githubusercontent.com/fisabiliyusri/main/ssh/install-ssh.sh
-# Link Hosting Kalian XRAY
+sla="raw.githubusercontent.com/fisabiliyusri/main/ssh"
+# Link Hosting Kalian Untuk Websocket
+slb="raw.githubusercontent.com/fisabiliyusri/main/websocket"
 
+# Getting
+MYIP=$(wget -qO- ipinfo.io/ip);
+rm -f setup.sh
 
+# INSTALL BOSS
 
+# Install SSH VPN
+wget https://${sla}/install-ssh.sh && chmod +x install-ssh.sh && ./install-ssh.sh
+# Install Websocket
+wget https://${slb}/python.sh && chmod +x python.sh && ./python.sh
 
+# INSTALL BOSS
