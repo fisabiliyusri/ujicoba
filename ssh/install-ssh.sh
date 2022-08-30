@@ -78,4 +78,8 @@ openssl req -new -x509 -key key.pem -out cert.pem -days 9999 \
 cat key.pem cert.pem >> /etc/stunnel5/stunnel5.pem
 
 #
+# Ubah Izin Akses
+chmod 600 /etc/stunnel5/stunnel5.pem
+
+#
 
