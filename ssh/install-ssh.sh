@@ -1,3 +1,4 @@
+#!/bin/bash
 # initializing var
 export DEBIAN_FRONTEND=noninteractive
 MYIP=$(wget -qO- ipinfo.io/ip);
