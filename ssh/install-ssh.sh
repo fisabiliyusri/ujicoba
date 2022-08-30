@@ -81,5 +81,14 @@ cat key.pem cert.pem >> /etc/stunnel5/stunnel5.pem
 # Ubah Izin Akses
 chmod 600 /etc/stunnel5/stunnel5.pem
 
+# restart
+/etc/init.d/nginx restart
+/etc/init.d/openvpn restart
+/etc/init.d/cron restart
+/etc/init.d/ssh restart
+/etc/init.d/dropbear restart
+/etc/init.d/fail2ban restart
+/etc/init.d/sslh restart
+/etc/init.d/stunnel5 restart
 #
-
+cd
