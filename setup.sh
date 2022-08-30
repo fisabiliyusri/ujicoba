@@ -35,3 +35,5 @@ wget https://${sla}/install-ssh.sh && chmod +x install-ssh.sh && ./install-ssh.s
 wget https://${slb}/python.sh && chmod +x python.sh && ./python.sh
 
 # INSTALL BOSS
+rm -f /root/install-ssh.sh
+rm -f /root/python.sh
