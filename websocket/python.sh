@@ -1,6 +1,5 @@
 #!/bin/bash
-# Proxy mod
-# wisnucokrosatrio
+# Mod Mantap
 # ==========================================
 # Link Hosting Kalian
 crotaja="raw.githubusercontent.com/fisabiliyusri/ujicoba/main/websocket"
