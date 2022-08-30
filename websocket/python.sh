@@ -3,7 +3,7 @@
 # wisnucokrosatrio
 # ==========================================
 # Link Hosting Kalian
-crotaja="raw.githubusercontent.com/fisabiliyusri/main/websocket"
+crotaja="raw.githubusercontent.com/fisabiliyusri/ujicoba/main/websocket"
 
 # Getting Proxy Template
 wget -q -O /usr/local/bin/stunnelws https://${crotaja}/stunnelws.py
