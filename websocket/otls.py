@@ -12,7 +12,7 @@ PASS = ''
 BUFLEN = 16777216 * 4
 TIMEOUT = 300
 DEFAULT_HOST = '127.0.0.1:700'
-RESPONSE = 'HTTP/1.1 101 <b><font color="green">INFINITY INTERNET</font></b>\r\n\r\nContent-Length: 10485760000000\r\n\r\n'
+RESPONSE = 'HTTP/1.1 101 <b><font color="green">MANTAPV3 INFINITY INTERNET</font></b>\r\n\r\nContent-Length: 10485760000000\r\n\r\n'
 
 class Server(threading.Thread):
     def __init__(self, host, port):
