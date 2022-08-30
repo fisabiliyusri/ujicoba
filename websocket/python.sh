@@ -92,7 +92,7 @@ systemctl enable otls
 systemctl restart otls
 
 # Getting Proxy Template
-wget -q -O /usr/local/bin/openvpnws https://${wisnuvpn}/openvpnws.py
+wget -q -O /usr/local/bin/openvpnws https://${crotaja}/openvpnws.py
 chmod +x /usr/local/bin/openvpnws
 
 # Installing Service
